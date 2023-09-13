@@ -2,11 +2,9 @@
 * {
     margin: 0px;
     padding: 0px;
-    flex-shrink: 1;
 }
 
 body {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -23,6 +21,7 @@ body {
         display: flex;
         flex-direction: column;
         height: 40vh;
+        padding-bottom: 60px;
     }
 
     .hero {
@@ -119,6 +118,7 @@ body {
         justify-content: center;
         gap: 52px;
         margin-bottom: 20px;
+        flex-wrap: wrap;
     }
 
     .placeholder-2 {
@@ -136,7 +136,7 @@ body {
 
     .info {
         max-width: 100px;
-
+        flex-flow: row wrap;
     }
 
     .text {
