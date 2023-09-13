@@ -9,7 +9,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     font-family: 'Roboto', sans-serif;
-    border: 5px solid firebrick;
+    /* border: 5px solid firebrick; */
 }
 
 /* Section for the header */
