@@ -1,1 +1,233 @@
 /* Image font is robot, the rest of the text is Hero */
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+
+    border: 5px solid firebrick;
+}
+
+/* Section for the header */
+@media{
+    .header {
+        /* border: 5px solid rgb(53, 178, 34); */
+        background-color: #1F2937;
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero {
+        font-size: 48px;
+        font-weight: bolder;
+        color: #f9faf8;
+    }
+
+    .hero-secondary {
+        font-size: 18px;
+        color: #e5e7eb;
+    }
+
+    .logo {
+        font-size: 24px;
+        color: #f9faf8;
+    }
+
+    .button1 {
+        background-color: #3882f6;
+        border: 1px solid #3882f6;
+        border-radius: 8px;
+        width: 100px;
+        height: 30px;
+        margin-bottom: 10px;
+        color: #f9faf8;
+        font-weight: 700;
+    }
+
+    .top-header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        /* border: 5px solid blue; */
+    }
+
+    .bottom-header {
+        /* border: 5px solid rgb(174, 255, 0); */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .left-side{
+        width: 25%;
+        border: 5px solid rgb(174, 255, 0);
+    }
+
+    .placeholder-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.481);
+        /* Adjust these once spacing is correct later */
+        width: 50%;
+        height: 50%;
+        
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        gap: 16px;
+        font-size: 18px;
+        color: #e5e7eb;
+        /* margin: 0px; */
+        /* padding: 0px; */
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+/* All of the code pertaining to the image info-section */
+@media{
+    .info-image {
+        /* border: 5px solid rgb(34, 178, 161); */
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        gap: 52px;
+        margin-bottom: 20px;
+    }
+
+    .placeholder-2 {
+        width: 100px;
+        height: 100px;
+        border: 3px solid #3882f6;
+        border-radius: 10px;
+        margin-bottom: 8px;
+    }
+
+    .title {
+        margin-bottom: 28px;
+    }
+
+    .info {
+        max-width: 100px;
+
+    }
+
+    .text {
+        font-size: 10px;
+    }
+}
+/* All the code pertaining to the quote section */
+@media{
+    .quote {
+        background-color: #e5e7eb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /* border: 5px solid rgb(178, 132, 34); */
+    }
+
+    .quote-body {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        font-style: italic;
+        font-size: 36px;
+        color: #1F2937;
+        width: 760px;
+        height: 100%;
+
+        /* border: 5px solid rgb(39, 34, 178); */
+    }
+
+    .content {
+        /* border: 5px solid rgb(34, 147, 178); */
+        margin: 0px;
+        margin-top: 30px;
+    }
+
+    .author {
+        /* border: 5px solid rgb(178, 34, 130); */
+        margin: 0px;
+        margin-bottom: 30px;
+    }
+}
+
+/* All the code pertaining to the call to action */
+@media{
+    .call-to-action {
+        /* border: 5px solid rgb(176, 178, 34); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .call-body {
+        /* border: 5px solid rgb(89, 34, 178); */
+        border-radius: 5px;
+        background-color: #3882f6;
+        width: 600px;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .call-left p {
+        color: white;
+        margin: 0px;
+    }
+
+    .call-content {
+        /* border: 5px solid rgb(89, 34, 178); */
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .action {
+        font-weight: bolder;
+    }
+
+    .ins {
+        font-stretch: condensed;
+        font-size: 14px;
+        font-weight: 100;
+    }
+
+    .button2 {
+        background-color: #3882f6;
+        /* border: 1px solid #ffffff; */
+        border-radius: 8px;
+        width: 100px;
+        height: 30px;
+        margin-bottom: 10px;
+        color: #f9faf8;
+        font-weight: 700;
+        margin-top: 2px;
+    }
+}
+
+/* All code pertaining to the footer section */
+.footer {
+    /* border: 5px solid rgb(34, 168, 178); */
+    background-color: #1F2937;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
